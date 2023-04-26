@@ -13,6 +13,8 @@ app.get('/healthz', (_req, res) => {
     res.send('OK');
 });
 
+console.log('Test String ###########################')
+
 const server = app.listen(env.port, () => {
     console.log(`Listening on port ${env.port}`)
 });
